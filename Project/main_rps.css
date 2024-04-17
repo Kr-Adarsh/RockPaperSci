@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.title{
+    color: rgb(209, 209, 209);
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+}
+.rock,.paper,.sci{
+    height: 50px;
+    /* width: 40px; */
+    padding: 2px 6px 2px 6px;
+    border-radius:100%;
+    background-color: transparent;
+
+}
+.move_button{
+    background-color: transparent;
+    border: none;
+    width: 100px; height: 100px;
+    border-radius: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    margin-right: 8px;
+}
+.move_button:hover{
+    background-color: rgb(61, 61, 61);
+}
+.move_button:active{
+    opacity: 0.6;
+}
+.newMove{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+
+}
+.result_show{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.scores{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.clean{
+    border: 1px rgb(255, 255, 255) solid;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px;
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+
+}
+.clean:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.clean:active{
+    opacity: 0.6;
+}
