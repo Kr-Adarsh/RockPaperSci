@@ -23,7 +23,7 @@ let rnum=0;
                     result='You lost';
                     } else if(compMove==='Scissor'){
                         result='You Won';
-                    } else if(compMove==='rock'){
+                    } else if(compMove==='Rock'){
                         result='Tie';
                     }
                     // console.log(compMove);
@@ -32,7 +32,7 @@ let rnum=0;
                     result='Tie';
                     } else if(compMove==='Scissor'){
                         result='You lost';
-                    } else if(compMove==='rock'){
+                    } else if(compMove==='Rock'){
                         result='You Won';
                     }
                 // console.log(compMove);
@@ -41,7 +41,7 @@ let rnum=0;
                             result='You Won';
                         } else if(compMove==='Scissor'){
                             result='Tie';
-                        } else if(compMove==='rock'){
+                        } else if(compMove==='Rock'){
                             result='You lost';
                         }
                 // console.log(compMove);
@@ -72,7 +72,7 @@ let rnum=0;
                 rnum=Math.random();
                 if(rnum>=0&&rnum<1/3){
                     // console.log('rock')
-                    compMove='rock';
+                    compMove='Rock';
                 } else if(rnum>=1/3 && rnum<2/3){
                     // console.log('Paper')
                     compMove='Paper';
